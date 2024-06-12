@@ -1,0 +1,92 @@
+* {
+    font-family: "Montserrat";
+}
+
+body {
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+header,
+main {
+    margin: 0 50px;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    gap: 50px;
+    color: #18A0FB
+}
+
+a {
+    text-decoration: none;
+    color: #18A0FB
+}
+
+#Logo {
+    position: absolute;
+    font-family: "Cinzel Decorative";
+    font-size: 36px;
+    color: #18A0FB;
+    left: 76px
+}
+
+.barra {
+    display: flex;
+    align-items: center;
+
+
+}
+
+.button button {
+    background-color: #18A0FB;
+}
+
+.featuredposts,
+.category {
+    font-size: 48px;
+    font-family: "Montserrat"
+
+
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.cardonee {
+    border: 1px solid #18A0FB;
+    height: 100%;
+    width: 47%;
+    border-radius: 0.5rem;
+}
+.cardone {
+    border: 1px solid #18A0FB;
+    border-radius: 0.5rem;
+    width: 100%;
+}
+.cardsmall{
+    border: 1px solid #18A0FB;
+    border-radius: 0.5rem;
+    height: 563px;
+    width: 374px;
+}
+.cardss {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.cardssmall{
+    justify-content: space-between;
+}
