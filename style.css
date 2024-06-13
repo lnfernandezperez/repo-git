@@ -7,22 +7,26 @@ body {
     box-sizing: border-box;
 }
 
+mb-50 
+
 header,
 main {
     margin: 0 50px;
+    border-bottom: 1px solid #18A0FB;
 }
 
 header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 ul {
+    padding: 0;
     display: flex;
     align-items: center;
     list-style: none;
-    padding: 10px;
-    gap: 50px;
+    gap: 30px;
     color: #18A0FB
 }
 
@@ -31,23 +35,33 @@ a {
     color: #18A0FB
 }
 
-#Logo {
-    position: absolute;
+.logo {
     font-family: "Cinzel Decorative";
     font-size: 36px;
     color: #18A0FB;
     left: 76px
 }
 
-.barra {
+.search{
     display: flex;
-    align-items: center;
+}
 
-
+.search button{
+    background-color: #18A0FB;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
 }
 
 .button button {
     background-color: #18A0FB;
+}
+
+.search input{
+    border: 1px solid #18A0FB;
+    border-radius: 0 5px 5px 0;
 }
 
 .featuredposts,
@@ -73,11 +87,9 @@ a {
 .cardone {
     border: 1px solid black;
     border-radius: 0.5rem;
-    height: 850px;
     width: 55%;
 }
 .cardsmall{
-    margin-bottom: 3rem;
     border: 1px solid black;
     border-radius: 0.5rem;
     height: 400px;
@@ -91,14 +103,82 @@ a {
 
 .cardssmall{
 
-
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .post{
     box-sizing: border-box;
 }
 
+.rectangle{
+    padding: 0 30px 40px 30px   ;
+}
+
+.rectangle p, .rectangle h3{
+    margin: 0
+}
+
+.rectangle h3{ 
+    padding: 20px 0 10px 0;
+}
+
+.desc{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
+
+.desc a{
+    padding-top: 20px;
+}
+
+.desc2 .author{
+    color: #18A0FB;
+}
+
 .textone, .post{
-    padding: 5%;
 
 }
+
+footer{
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+}
+
+footer nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    padding: 80px  50px ;
+    width: 100%;
+}
+
+.logo {
+    font-family: "Cinzel Decorative";
+    font-size: 36px;
+    font-weight: bold;
+    color:#18A0FB
+}
+
+.ft{
+    color: #fff
+}
+
+.menu-2 ul{
+    margin: 0;
+}
+
+.menu-2 li{
+    color: #fff;
+}
+
+.copy{
+    padding: 0;
+    margin: 0;
+}   
