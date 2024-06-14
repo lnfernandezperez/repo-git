@@ -7,8 +7,6 @@ body {
     box-sizing: border-box;
 }
 
-mb-50 
-
 header,
 main {
     margin: 0 50px;
@@ -75,37 +73,33 @@ a {
 .cards {
     display: flex;
     justify-content: space-between;
-
+    gap: 40px;
 }
 
 .cardonee {
     border: 1px solid black;
-    height: 100%;
-    width: 47%;
     border-radius: 0.5rem;
 }
 .cardone {
     border: 1px solid black;
     border-radius: 0.5rem;
-    width: 55%;
 }
 .cardsmall{
     border: 1px solid black;
     border-radius: 0.5rem;
-    height: 400px;
-    width: 500px;
 }
 .cardss {
     display: flex;
     justify-content: space-between;
-    
+    gap: 40px;
 }
 
 .cardssmall{
 
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
 }
 
 .post{
@@ -138,9 +132,7 @@ a {
     color: #18A0FB;
 }
 
-.textone, .post{
 
-}
 
 footer{
     margin-top: 60px;
