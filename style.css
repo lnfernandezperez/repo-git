@@ -7,10 +7,13 @@ body {
     box-sizing: border-box;
 }
 
-header,
-main {
+header {
     margin: 0 50px;
     border-bottom: 1px solid #18A0FB;
+}
+
+main {
+    margin: 0 50px;
 }
 
 header {
@@ -25,6 +28,7 @@ header {
 }
 .more{
     justify-content: center;
+    color: #18A0FB;
 }
 ul {
     padding: 0;
