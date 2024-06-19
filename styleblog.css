@@ -1,0 +1,8 @@
+main{ 
+    margin: 0 50px;
+}
+.navbar{
+    margin: 0 50px;
+    display: flex;
+    justify-content: space-between;
+}
